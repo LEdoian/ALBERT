@@ -14,3 +14,5 @@
 *.so.*
 *.dylib
 
+# Hidden files
+# .*
