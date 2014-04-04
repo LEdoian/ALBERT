@@ -5,10 +5,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"LE_low.h"
+#include"LE_ALBERT_low.h"
 #include"LE_shared.h"
 
-int main(int argc, char argv[][]){
+int main(int argc, char** argv){
 	if(!LE_Connect_ALBERT("MAC")) LE_Problem("Nepodařilo se připojit k ALBERTovi", 5);
 	
 	
