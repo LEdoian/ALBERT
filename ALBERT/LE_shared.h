@@ -2,6 +2,10 @@
 // LEdoian..CZ
 // v. 0.0.1
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 #ifndef LE_SHARED_H
 #define LE_SHARED_H
 
