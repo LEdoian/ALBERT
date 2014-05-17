@@ -10,7 +10,7 @@
 #include"LE_shared.h"
 
 int main(int argc, char** argv){
-	if(LE_ALBERT_ConnectionInit(123456789987654321)) LE_Problem(LE_ALBERT_CannotConnect, LE_ALBERT_CannotConnectErrNum);
+	/*FILE* = fopen rw*/LE_ALBERT_ConnectionInit();
 	
 	
 	return EXIT_SUCCESS;
